@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01d7b4419586f037e47ae5430306895b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_01d7b4419586f037e47ae5430306895b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_01d7b4419586f037e47ae5430306895b = L.map(
+                "map_01d7b4419586f037e47ae5430306895b",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8514936c4c106661ecfa1a9c63a15a47 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_8514936c4c106661ecfa1a9c63a15a47.addTo(map_01d7b4419586f037e47ae5430306895b);
+        
+    
+            var marker_c184fdf04a88c3190f75a18faeb7074a = L.marker(
+                [-34.6037, -58.3816],
+                {
+}
+            ).addTo(map_01d7b4419586f037e47ae5430306895b);
+        
+    
+            var icon_188042470dab49d5e10c5aaff9c1b0c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_407f8807aa72d3a0d8fc72206a9575c2 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6d1aeaa4e151df149e02b46787143dc3 = $(`<div id="html_6d1aeaa4e151df149e02b46787143dc3" style="width: 100.0%; height: 100.0%;"><b>El secreto de sus ojos</b><br>Director: Juan José Campanella<br>Año: 2009<br>Género: Policial / Drama<br>Protagonista: Ricardo Darín<br><br></div>`)[0];
+                popup_407f8807aa72d3a0d8fc72206a9575c2.setContent(html_6d1aeaa4e151df149e02b46787143dc3);
+            
+        
+
+        marker_c184fdf04a88c3190f75a18faeb7074a.bindPopup(popup_407f8807aa72d3a0d8fc72206a9575c2)
+        ;
+
+        
+    
+    
+                marker_c184fdf04a88c3190f75a18faeb7074a.setIcon(icon_188042470dab49d5e10c5aaff9c1b0c5);
+            
+    
+            var marker_2c5d87e9e6becd02a0d2878e2fea0a40 = L.marker(
+                [35.6586, 139.7454],
+                {
+}
+            ).addTo(map_01d7b4419586f037e47ae5430306895b);
+        
+    
+            var icon_f721bac2dcfb849843f51e43c904059a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a7526b378d9e6224c90f8f6d79bc5495 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f341b4ebe54305e0d8169e0260240936 = $(`<div id="html_f341b4ebe54305e0d8169e0260240936" style="width: 100.0%; height: 100.0%;"><b>Inception</b><br>Director: Christopher Nolan<br>Año: 2010<br>Género: Ciencia ficción<br>Protagonista: Leonardo DiCaprio<br><br></div>`)[0];
+                popup_a7526b378d9e6224c90f8f6d79bc5495.setContent(html_f341b4ebe54305e0d8169e0260240936);
+            
+        
+
+        marker_2c5d87e9e6becd02a0d2878e2fea0a40.bindPopup(popup_a7526b378d9e6224c90f8f6d79bc5495)
+        ;
+
+        
+    
+    
+                marker_2c5d87e9e6becd02a0d2878e2fea0a40.setIcon(icon_f721bac2dcfb849843f51e43c904059a);
+            
+    
+            var marker_7882989c9598ea20bbdb5b8e33a914d0 = L.marker(
+                [35.4676, -97.5164],
+                {
+}
+            ).addTo(map_01d7b4419586f037e47ae5430306895b);
+        
+    
+            var icon_79d96591a3dd50482edf45e5bc1f5d01 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c51ffe7c541121389bb30b13a23dadc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b5ddd25297318464003b5fc3ddbaea9 = $(`<div id="html_9b5ddd25297318464003b5fc3ddbaea9" style="width: 100.0%; height: 100.0%;"><b>Interstellar</b><br>Director: Christopher Nolan<br>Año: 2014<br>Género: Ciencia ficción / Drama<br>Protagonista: Matthew McConaughey<br><br></div>`)[0];
+                popup_7c51ffe7c541121389bb30b13a23dadc.setContent(html_9b5ddd25297318464003b5fc3ddbaea9);
+            
+        
+
+        marker_7882989c9598ea20bbdb5b8e33a914d0.bindPopup(popup_7c51ffe7c541121389bb30b13a23dadc)
+        ;
+
+        
+    
+    
+                marker_7882989c9598ea20bbdb5b8e33a914d0.setIcon(icon_79d96591a3dd50482edf45e5bc1f5d01);
+            
+    
+            var marker_d684ce51f4fd76a9e63bce3edee31d06 = L.marker(
+                [37.5665, 126.978],
+                {
+}
+            ).addTo(map_01d7b4419586f037e47ae5430306895b);
+        
+    
+            var icon_aef513bd41413c838c97a4f60c1e9503 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_341bebda56a822e0b227ad5a2937f7e7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4b940abcd9a9bf761335dc52c8e0eb8f = $(`<div id="html_4b940abcd9a9bf761335dc52c8e0eb8f" style="width: 100.0%; height: 100.0%;"><b>Parasite</b><br>Director: Bong Joon-ho<br>Año: 2019<br>Género: Drama / Thriller<br>Protagonista: Song Kang-ho<br><br></div>`)[0];
+                popup_341bebda56a822e0b227ad5a2937f7e7.setContent(html_4b940abcd9a9bf761335dc52c8e0eb8f);
+            
+        
+
+        marker_d684ce51f4fd76a9e63bce3edee31d06.bindPopup(popup_341bebda56a822e0b227ad5a2937f7e7)
+        ;
+
+        
+    
+    
+                marker_d684ce51f4fd76a9e63bce3edee31d06.setIcon(icon_aef513bd41413c838c97a4f60c1e9503);
+            
+    
+            var marker_5708cbe29ea7c2390a1d82b96ae1abdb = L.marker(
+                [51.0486, -114.0708],
+                {
+}
+            ).addTo(map_01d7b4419586f037e47ae5430306895b);
+        
+    
+            var icon_1be7c19e3c2e2b71c9a16b755598479a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c5cd711e0eaaf49b00d45f6d723f57fd = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_05b7b9cd57418423e709e51ed0d14878 = $(`<div id="html_05b7b9cd57418423e709e51ed0d14878" style="width: 100.0%; height: 100.0%;"><b>The Revenant</b><br>Director: Alejandro G. Iñárritu<br>Año: 2015<br>Género: Aventura / Drama<br>Protagonista: Leonardo DiCaprio<br><br></div>`)[0];
+                popup_c5cd711e0eaaf49b00d45f6d723f57fd.setContent(html_05b7b9cd57418423e709e51ed0d14878);
+            
+        
+
+        marker_5708cbe29ea7c2390a1d82b96ae1abdb.bindPopup(popup_c5cd711e0eaaf49b00d45f6d723f57fd)
+        ;
+
+        
+    
+    
+                marker_5708cbe29ea7c2390a1d82b96ae1abdb.setIcon(icon_1be7c19e3c2e2b71c9a16b755598479a);
+            
+    
+            tile_layer_8514936c4c106661ecfa1a9c63a15a47.addTo(map_01d7b4419586f037e47ae5430306895b);
+        
+    
+                marker_c184fdf04a88c3190f75a18faeb7074a.setIcon(icon_188042470dab49d5e10c5aaff9c1b0c5);
+            
+    
+                marker_2c5d87e9e6becd02a0d2878e2fea0a40.setIcon(icon_f721bac2dcfb849843f51e43c904059a);
+            
+    
+                marker_7882989c9598ea20bbdb5b8e33a914d0.setIcon(icon_79d96591a3dd50482edf45e5bc1f5d01);
+            
+    
+                marker_d684ce51f4fd76a9e63bce3edee31d06.setIcon(icon_aef513bd41413c838c97a4f60c1e9503);
+            
+    
+                marker_5708cbe29ea7c2390a1d82b96ae1abdb.setIcon(icon_1be7c19e3c2e2b71c9a16b755598479a);
+            
+</script>
+</html>

@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6c2828ee28e9eb850df2941ac430f539 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6c2828ee28e9eb850df2941ac430f539" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6c2828ee28e9eb850df2941ac430f539 = L.map(
+                "map_6c2828ee28e9eb850df2941ac430f539",
+                {
+                    center: [-13.5319, -71.9675],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 4,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_70c0e2a708d2294d5425a44c57e0ce49 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_70c0e2a708d2294d5425a44c57e0ce49.addTo(map_6c2828ee28e9eb850df2941ac430f539);
+        
+    
+            var marker_4292387436d0b2f982b10b53fc994c4f = L.marker(
+                [-13.84714, -74.32246],
+                {
+}
+            ).addTo(map_6c2828ee28e9eb850df2941ac430f539);
+        
+    
+            var icon_8be3e6ca7caada7aaa50092bee098591 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_826c9ab55e9c45c9d093be5dd101cdbd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30748cb48c975909c2d8201a41811ee0 = $(`<div id="html_30748cb48c975909c2d8201a41811ee0" style="width: 100.0%; height: 100.0%;">Ayacucho Quechua</div>`)[0];
+                popup_826c9ab55e9c45c9d093be5dd101cdbd.setContent(html_30748cb48c975909c2d8201a41811ee0);
+            
+        
+
+        marker_4292387436d0b2f982b10b53fc994c4f.bindPopup(popup_826c9ab55e9c45c9d093be5dd101cdbd)
+        ;
+
+        
+    
+    
+                marker_4292387436d0b2f982b10b53fc994c4f.setIcon(icon_8be3e6ca7caada7aaa50092bee098591);
+            
+    
+            var marker_937ff1f9d8a11c5789eb99fcdd404542 = L.marker(
+                [-0.36205, -78.2587],
+                {
+}
+            ).addTo(map_6c2828ee28e9eb850df2941ac430f539);
+        
+    
+            var icon_0561e018859f75a5f54f9c2195775420 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95cab9a2c1d64c27637e18cb615dc107 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69d51c4fffa3d85e7012b02e670c1f78 = $(`<div id="html_69d51c4fffa3d85e7012b02e670c1f78" style="width: 100.0%; height: 100.0%;">Calderón Highland Quichua</div>`)[0];
+                popup_95cab9a2c1d64c27637e18cb615dc107.setContent(html_69d51c4fffa3d85e7012b02e670c1f78);
+            
+        
+
+        marker_937ff1f9d8a11c5789eb99fcdd404542.bindPopup(popup_95cab9a2c1d64c27637e18cb615dc107)
+        ;
+
+        
+    
+    
+                marker_937ff1f9d8a11c5789eb99fcdd404542.setIcon(icon_0561e018859f75a5f54f9c2195775420);
+            
+    
+            var marker_87299229059d599320568ae4ba9cad15 = L.marker(
+                [-1.36727, -78.8521],
+                {
+}
+            ).addTo(map_6c2828ee28e9eb850df2941ac430f539);
+        
+    
+            var icon_84737c79cf36f4b25ed0ce053015bb9c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ae5c6c501da69a84eead54e8962af319 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aed4d08ea9034e32e61cc9b6d4816292 = $(`<div id="html_aed4d08ea9034e32e61cc9b6d4816292" style="width: 100.0%; height: 100.0%;">Bolivar-North Chimborazo Highland Quichua</div>`)[0];
+                popup_ae5c6c501da69a84eead54e8962af319.setContent(html_aed4d08ea9034e32e61cc9b6d4816292);
+            
+        
+
+        marker_87299229059d599320568ae4ba9cad15.bindPopup(popup_ae5c6c501da69a84eead54e8962af319)
+        ;
+
+        
+    
+    
+                marker_87299229059d599320568ae4ba9cad15.setIcon(icon_84737c79cf36f4b25ed0ce053015bb9c);
+            
+    
+            var marker_021ac90e4fecc6f0b8a5610cf6c47e27 = L.marker(
+                [-14.0853, -71.7663],
+                {
+}
+            ).addTo(map_6c2828ee28e9eb850df2941ac430f539);
+        
+    
+            var icon_e7d64e40aef80e249e3f8ad425a0b125 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d08fce0b361e5fdd727cd2cf79cfe11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_58c7ebeef60413885b34630d43d0082f = $(`<div id="html_58c7ebeef60413885b34630d43d0082f" style="width: 100.0%; height: 100.0%;">Cusco Quechua</div>`)[0];
+                popup_8d08fce0b361e5fdd727cd2cf79cfe11.setContent(html_58c7ebeef60413885b34630d43d0082f);
+            
+        
+
+        marker_021ac90e4fecc6f0b8a5610cf6c47e27.bindPopup(popup_8d08fce0b361e5fdd727cd2cf79cfe11)
+        ;
+
+        
+    
+    
+                marker_021ac90e4fecc6f0b8a5610cf6c47e27.setIcon(icon_e7d64e40aef80e249e3f8ad425a0b125);
+            
+    
+            var marker_8e0cdd2228fc57eec86848beaca112a6 = L.marker(
+                [-9.57135, -75.594],
+                {
+}
+            ).addTo(map_6c2828ee28e9eb850df2941ac430f539);
+        
+    
+            var icon_edc86e4589dd4f1f8cd30c30d3c564be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1a01bcd7132fa34fa12aadefbaa12f9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b77eac7a8b4276e7ff2c757abfa5199 = $(`<div id="html_2b77eac7a8b4276e7ff2c757abfa5199" style="width: 100.0%; height: 100.0%;">Huallaga Huánuco Quechua</div>`)[0];
+                popup_1a01bcd7132fa34fa12aadefbaa12f9e.setContent(html_2b77eac7a8b4276e7ff2c757abfa5199);
+            
+        
+
+        marker_8e0cdd2228fc57eec86848beaca112a6.bindPopup(popup_1a01bcd7132fa34fa12aadefbaa12f9e)
+        ;
+
+        
+    
+    
+                marker_8e0cdd2228fc57eec86848beaca112a6.setIcon(icon_edc86e4589dd4f1f8cd30c30d3c564be);
+            
+    
+            var marker_e5193c7a59f868557e59cfca816ad2e6 = L.marker(
+                [0.31776, -78.3729],
+                {
+}
+            ).addTo(map_6c2828ee28e9eb850df2941ac430f539);
+        
+    
+            var icon_ba4b73010fa95b9ed3cbf2e959920e25 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d5faa448400f6c0b5523ab357ee19d06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9d00b3dc69e78f21a32977ea4c96540 = $(`<div id="html_d9d00b3dc69e78f21a32977ea4c96540" style="width: 100.0%; height: 100.0%;">Imbabura Highland Quichua</div>`)[0];
+                popup_d5faa448400f6c0b5523ab357ee19d06.setContent(html_d9d00b3dc69e78f21a32977ea4c96540);
+            
+        
+
+        marker_e5193c7a59f868557e59cfca816ad2e6.bindPopup(popup_d5faa448400f6c0b5523ab357ee19d06)
+        ;
+
+        
+    
+    
+                marker_e5193c7a59f868557e59cfca816ad2e6.setIcon(icon_ba4b73010fa95b9ed3cbf2e959920e25);
+            
+    
+            var marker_9e0bf7a1a17a5fc3b3c3b1761bec96aa = L.marker(
+                [1.00313, -76.8606],
+                {
+}
+            ).addTo(map_6c2828ee28e9eb850df2941ac430f539);
+        
+    
+            var icon_9e844aacd55ecaf49f507a067fabdbac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2209a1b43470b1f28636dae6cf8fc252 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_867ad23b304f5822a669ada4d81eae8b = $(`<div id="html_867ad23b304f5822a669ada4d81eae8b" style="width: 100.0%; height: 100.0%;">Colombian Inga</div>`)[0];
+                popup_2209a1b43470b1f28636dae6cf8fc252.setContent(html_867ad23b304f5822a669ada4d81eae8b);
+            
+        
+
+        marker_9e0bf7a1a17a5fc3b3c3b1761bec96aa.bindPopup(popup_2209a1b43470b1f28636dae6cf8fc252)
+        ;
+
+        
+    
+    
+                marker_9e0bf7a1a17a5fc3b3c3b1761bec96aa.setIcon(icon_9e844aacd55ecaf49f507a067fabdbac);
+            
+    
+            var marker_d5eedf5a791d5f593b33fca279c78ba5 = L.marker(
+                [-11.2132, -75.8128],
+                {
+}
+            ).addTo(map_6c2828ee28e9eb850df2941ac430f539);
+        
+    
+            var icon_5de6f199508737a04818648f8740b486 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b8d698ec452e53baa6bc7576524a0102 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c913c76a720b429d8858140f3b0abedd = $(`<div id="html_c913c76a720b429d8858140f3b0abedd" style="width: 100.0%; height: 100.0%;">North Junín Quechua</div>`)[0];
+                popup_b8d698ec452e53baa6bc7576524a0102.setContent(html_c913c76a720b429d8858140f3b0abedd);
+            
+        
+
+        marker_d5eedf5a791d5f593b33fca279c78ba5.bindPopup(popup_b8d698ec452e53baa6bc7576524a0102)
+        ;
+
+        
+    
+    
+                marker_d5eedf5a791d5f593b33fca279c78ba5.setIcon(icon_5de6f199508737a04818648f8740b486);
+            
+    
+            var marker_dde6c6e1b1eb3247c517bc5a0883228a = L.marker(
+                [-6.9582, -76.6608],
+                {
+}
+            ).addTo(map_6c2828ee28e9eb850df2941ac430f539);
+        
+    
+            var icon_15f83b8dbf6e4754f0bd0e549fe45064 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d34db66653b5f0f9315c650ef10a8d37 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf594eb2300567652249ba6ae5866b8b = $(`<div id="html_bf594eb2300567652249ba6ae5866b8b" style="width: 100.0%; height: 100.0%;">San Martín Quechua</div>`)[0];
+                popup_d34db66653b5f0f9315c650ef10a8d37.setContent(html_bf594eb2300567652249ba6ae5866b8b);
+            
+        
+
+        marker_dde6c6e1b1eb3247c517bc5a0883228a.bindPopup(popup_d34db66653b5f0f9315c650ef10a8d37)
+        ;
+
+        
+    
+    
+                marker_dde6c6e1b1eb3247c517bc5a0883228a.setIcon(icon_15f83b8dbf6e4754f0bd0e549fe45064);
+            
+</script>
+</html>
